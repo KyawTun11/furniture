@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ProductCard extends StatelessWidget {
+  static var length;
+
   const ProductCard({
     Key? key,
     required this.subtitle,
